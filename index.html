@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hilda Edith Apaza Apaza | Técnica en ASPTI</title>
+  <meta name="description" content="CV de Hilda Edith Apaza Apaza, técnica en ASPTI de Santa Lucía, Lampa, Puno. Mantenimiento de equipos, fibra óptica, comercio electrónico, diseño y animación gráfica.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="nav__logo" href="#inicio">Hilda Apaza</a>
+    <button class="nav__toggle" aria-label="Abrir menú" aria-expanded="false">Menú</button>
+    <nav class="nav__links" id="menu">
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#formacion">Formación</a>
+      <a href="#experiencia">Experiencia</a>
+      <a href="#fotos">Fotos</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero__text">
+        <p class="hero__role">Técnica en ASPTI</p>
+        <h1>Hilda Edith<br>Apaza Apaza</h1>
+        <p class="hero__lead">Mantenimiento de equipos, fibra óptica, comercio electrónico y animación gráfica.</p>
+        <div class="hero__actions">
+          <a class="btn btn--main" href="cv/CV_Hilda_Edith_Apaza_Apaza.pdf" download>Descargar CV en PDF</a>
+          <a class="btn" href="cv/CV_Hilda_Edith_Apaza_Apaza.docx" download>Descargar en Word</a>
+        </div>
+      </div>
+      <img class="hero__photo" src="img/perfil.jpg" alt="Foto de Hilda Edith Apaza Apaza" width="320" height="320">
+    </section>
+
+    <section class="section" id="sobre-mi">
+      <h2>Sobre mí</h2>
+      <p>Técnica en ASPTI con conocimientos en mantenimiento de equipos, fibra óptica, comercio electrónico y ofimática a nivel intermedio, y buen manejo del diseño y la animación gráfica. Soy responsable y tengo disposición para aprender. Busco incorporarme a un puesto donde pueda aplicar mis conocimientos técnicos y seguir desarrollándome profesionalmente.</p>
+    </section>
+
+    <section class="section" id="habilidades">
+      <h2>Habilidades</h2>
+      <ul class="chips">
+        <li>Mantenimiento de equipos</li>
+        <li>Ofimática nivel intermedio</li>
+        <li>Fibra óptica</li>
+        <li>Comercio electrónico</li>
+        <li>Diseño y animación gráfica</li>
+      </ul>
+    </section>
+
+    <section class="section" id="formacion">
+      <h2>Formación</h2>
+      <article class="item">
+        <p class="item__date">2024 – 2026</p>
+        <div>
+          <h3>Técnica en ASPTI</h3>
+          <p>Instituto de Educación Superior Tecnológico Público Santa Lucía</p>
+        </div>
+      </article>
+    </section>
+
+    <section class="section" id="experiencia">
+      <h2>Experiencia</h2>
+      <p class="section__sub">Pre-prácticas</p>
+      <div class="timeline">
+        <article class="item">
+          <p class="item__date">2024</p>
+          <div><h3>Mantenimiento de equipos y ofimática</h3></div>
+        </article>
+        <article class="item">
+          <p class="item__date">2025</p>
+          <div><h3>Fibra óptica</h3></div>
+        </article>
+        <article class="item">
+          <p class="item__date">2026</p>
+          <div><h3>Comercio electrónico, diseño y animación gráfica</h3></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="fotos">
+      <h2>Fotos</h2>
+      <div class="gallery">
+        <button class="gallery__item" data-full="img/foto-saco-azul.jpg" data-alt="Hilda con saco azul">
+          <img src="img/foto-saco-azul.jpg" alt="Hilda con saco azul" loading="lazy">
+        </button>
+        <button class="gallery__item gallery__item--tall" data-full="img/foto-abrigo.jpg" data-alt="Hilda con abrigo negro">
+          <img src="img/foto-abrigo.jpg" alt="Hilda con abrigo negro" loading="lazy">
+        </button>
+      </div>
+    </section>
+
+    <section class="section contact" id="contacto">
+      <h2>Contacto</h2>
+      <ul class="contact__list">
+        <li><span>Teléfono</span><a href="tel:+51907890725">907 890 725</a></li>
+        <li><span>WhatsApp</span><a href="https://wa.me/51907890725" target="_blank" rel="noopener">Escríbeme por WhatsApp</a></li>
+        <li><span>Correo</span><a href="mailto:hildaapaza2006@gmail.com">hildaapaza2006@gmail.com</a></li>
+        <li><span>Ubicación</span><b>Santa Lucía, Lampa, Puno</b></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year">2026</span> Hilda Edith Apaza Apaza</p>
+  </footer>
+
+  <dialog class="lightbox" id="lightbox">
+    <button class="lightbox__close" aria-label="Cerrar foto">Cerrar</button>
+    <img src="" alt="">
+  </dialog>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
